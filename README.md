@@ -3,6 +3,9 @@
 This repository is an experiment in using the Codex CLI coding agent to generate
 a small Python console application from the instructions in `requirements.md`.
 
+> [!WARNING]
+> This is an experimental project and should not be considered production-ready.
+
 The Python code in `src/security_headers_auditor` should be treated as
 agent-generated output, not as finished or production-ready software. The
 purpose of this project is to evaluate the Codex CLI workflow, including how it
@@ -64,3 +67,7 @@ After setup, run the generated CLI with:
 ```
 
 Replace `https://www.example.com` with the website to audit.
+
+## License
+
+GNU General Public License v3.0. See the `LICENSE` file for details.
